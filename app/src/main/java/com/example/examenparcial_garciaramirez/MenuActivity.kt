@@ -25,5 +25,13 @@ class MenuActivity : AppCompatActivity() {
             val intent = Intent(this, CorporalActivity::class.java)
             startActivity(intent)
         }
+        btnSZ.setOnClickListener {
+            val intent = Intent(this, ZodiacoActivity::class.java)
+            startActivity(intent)
+        }
+        btnGen.setOnClickListener {
+            val intent = Intent(this, CorporalActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
