@@ -44,7 +44,5 @@ class CorporalActivity : AppCompatActivity() {
             }
 
         }
-        val intent = Intent(this, CorporalActivity::class.java)
-        startActivity(intent)
     }
 }
