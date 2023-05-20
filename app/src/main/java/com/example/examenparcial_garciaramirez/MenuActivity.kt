@@ -21,5 +21,9 @@ class MenuActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
+        btnIMC.setOnClickListener {
+            val intent = Intent(this, CorporalActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
